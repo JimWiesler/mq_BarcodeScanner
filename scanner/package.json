@@ -1,0 +1,16 @@
+{
+  "name": "barcode-scanner-to-mqtt",
+  "version": "1.0.0",
+  "description": "Pushes scanned results to MQTT queue",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J. Wiesler",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^4.2.5",
+    "serialport": "^9.0.2"
+  }
+}
